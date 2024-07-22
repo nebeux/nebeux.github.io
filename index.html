@@ -4,29 +4,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JelloHub</title>
-  <link href="https://jellofile.github.io/style.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" type="image/x-icon" href="/assets/logo.png">
+  <title>JelloCube</title>
+  <link href="/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <div class="header">
-<table><tr><td><img src='https://jellofile.github.io/assets/logolast.png'/></td><td>JelloHub<br><a style='font-size:15px;color:#f28282; margin-right:10px;' href='/'>Home</a><a style='font-size:15px;color:#f28282; margin-right:10px;' href='/projects'>Projects</a><a style='font-size:15px;color:#f28282; margin-right:10px;' href='/privacypolicy'>Privacy Policy</a></td></tr></table>
+  <div class='header' id='header'>
+    <table><tr><td><img src='/images/logo1.png' width="50" height="50"></td><td><h2>JelloCube</h2></td></tr></table>
   </div>
   <div class='body'>
-    <h2>Welcome to JelloHub!</h2>
-    <table style='margin-left:auto;margin-right:auto;'><tr><td class='box'><h1>This is the place</h1><p>where JelloFile's projects and other stuff are!</p></td></tr></table>
+    <h1 id='heading_container' style="display:none;opacity:0">Just a kid in his own cube.</h1>
+    <h3 id='h3_container'>
+      <span id='h3_span1'style="display:none;opacity:0">Try</span> <span id='h3_span2'style="display:none;opacity:0">a </span><span id='h3_span3'style="display:none;opacity:0">project </span><span id='h3_span4'style="display:none;opacity:0">of </span><span id='h3_span5'style="display:none;opacity:0">mine!</span>
+    </h3>
+    <div id='game_container' style='display:none;opacity:0'>
+      <h2 id='gameheader'>[class='game']</h2>
+      <i id='typeheader'>[class='type']</i><br><br>
+      <iframe id='iframe'></iframe>
+      <button onclick='randomGame()'>Give me another one!</button>
+    </div>
   </div>
-   <div class='body'>
-    <h2>Featured Project</h2>
-    <table style='margin-left:auto;margin-right:auto;'><tr><td class='gameLAGlink' onclick='location.pathname="/lifeinagame"'><h1>LAG (LifeInAGame)</h1><p>A text-based game in which you can simulate life in a non-realistic and funny manner. Inspired by the Discord bot, Dank Memer!</p><p>Try it out below! If you like it, click this box!</p><iframe src='https://jellofile.github.io/lifeinagame' width="500" height="300"></iframe><br><i style='font-size:10px;'>This is a incomplete discontinued game. This means that this game was never completed. If you would like to see this back in the works, join my discord server and spam #lifeinagame in the spam section. :D</i></td></tr></table>
+  <div id='footer'>
+    <h3>JelloCube</h3>
+    <table>
+      <tr><td>
+          <img id='socials' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27kaHyBN4-iwj7H4pMmnE7kaC720Y-PYzKQ&s'onclick="location.href='https://github.com/JelloFile'"></td><td>
+    <img id='socials' src='https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721606400&semt=ais_user'onclick="location.href='https://x.com/JelloFile'"></td>
+      
+      <td><img id='socials' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdEjIsQcn8NwYWhwISL74xXLGtRHeW1Mn67g&s'onclick="location.href='https://youtube.com/@JelloFile'"></td></td>
+      </tr>
+    </table>
   </div>
-  <script src="https://jellofile.github.io/script.js"></script><br>
-<footer class='header'><table><tr>
-  <td>
-    <h2 style='padding-bottom:0;margin-bottom:0;'>JelloHub</h2>
-<table><tr><td><a style='color:#f28282;'href='https://www.youtube.com/channel/UC_rrOhxpj4gvVBFIX7RsGdg'><img src='https://cdn-icons-png.flaticon.com/256/1384/1384060.png' style='width:50px;height:50px;'/></a></td></tr></table>
-  </td></tr></table></footer>
+  <script src="/script.js"></script>
 </body>
 
 </html>
