@@ -1,119 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-/*Import Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
-/*Section 0: Global Scope*/
-html,body{
-  font-family:"Open Sans", sans-serif;
-  padding:0;
+html,body {
+  height: 100%;
+  width: 100%;
   margin:0;
-  background:#f28282;
-  color:#ff3131
+  padding:0;
+  font-family:"Poppins",sans-serif
 }
-
-.header{
-  background:url("https://jellofile.github.io/assets/background.png");
+iframe{
+  width:70%;
+  height:200px;
+  border:2px solid white;
+  border-radius:10px;
+}
+button{
   padding:10px;
-  color:#f28282;
-  font-size:30px;
+  border:none;
+  background: #3b3535;
+  color:white;
+  cursor:pointer;
+  font-family:"Poppins", sans-serif;
+  border-radius:10px;
+  transiton:ease-in-out;
+}
+button:hover{
+  background: #615656;
+}
+#header{
+  padding:10px;
+  background: #4D4D4D;
+  width:100%;
+  color:white;
+  
+}
+#footer{
+  background: #4D4D4D;
+  width:100%;
+  color:white;
+  padding:10px
+}
+#game_container{
+  padding:10px;
+  background: #262121;
+  width:300px;
+  height:400px;
+  color:white;
+  border-radius:10px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  cursor:pointer;
+}
+#socials{
+  width:30px;
+  height:30px;
+  cursor:pointer;
+  border-radius:10px;
+  margin-right:10px;
 }
 .body{
-  text-align:center;
-}
-/*Section 1: Projects.html CSS*/
-.box{
-  /*general flashcard*/
-background:url("https://jellofile.github.io/assets/background.png");
-  width:200px;
-  height:613.88px;
-  text-align:center;
-  border-radius:10px;
-  transition:ease-in-out, 1s;
-padding:20px;
-  color:#f28282;
-} 
-#passwordmeme{
-      /* Password Meme Flashcard */
-background:white;
-  font-family:sans-serif;
-  color:black;
-  font-weight:900
-  
-}
-#passwordmeme:hover{
-     /* Password Meme Flashcard */
-cursor:pointer;
-  color:red
-}
-
-.infCraft{
-  /* Infinite Craft Flashcard */
-background:white;
-  width:200px;
-  height:100px;
-  text-align:center;
-  border-radius:10px;
-  transition:ease-in-out, 1s;
-padding:20px;
-  
-}
-.infCraft:hover{
-    /* Infinite Craft Flashcard */
-color:black;
-}
-.gameLAGlink{
-    /* LAG + RUSREV Flashcard */
-background:#2c2f33;
+  padding:10px;
+  background: #3b3535;
+  width:100%;
+  height:150%;
   color:white;
-  font-family:"Montserrat", sans-serif;
-  width:200px;
-  height:100px;
   text-align:center;
-  border-radius:10px;
-  transition:ease-in-out, 1s;
-padding:20px;
-
+  animation: ease-in-out, 3s;
 }
-.gameLAGlink:hover{
-      /* LAG + RUSREV Flashcard */
-  cursor:pointer;
-  color:#f28282;
-}
-#mathcompass{
-     /* MathCompass Flashcard */
-background:black;
-  font-family:monospace;
-  color:#149414;
-
-  
-}
-#mathcompass:hover{
-      /* MathCompass Flashcard */
-  color:red;
-  cursor:pointer;
-}
-
-#vietnamai{
-      /* VietnamAI Flashcard */
-background:red;
-  color:yellow;
-  font-family:"Montserrat", sans-serif;
-  width:200px;
-  height:100px;
-  text-align:center;
-  border-radius:10px;
-  transition:ease-in-out, 1s;
-padding:20px;
-cursor:pointer
-}
-#vietnamai:hover{
-        /* VietnamAI Flashcard */
-color:white;
-}
-
-
-
-
-
-
