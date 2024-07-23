@@ -46,7 +46,7 @@ function onload_func3(){
   }
 }
 onload_func1()
-// random
+// literally.
 var projects = [
   {
   name: "LifeInAGame",
@@ -57,7 +57,22 @@ var projects = [
   name: "Password Meme",
   type: "YouTube Web Project",
   link: "https://jellofile.github.io/passwordmeme"
-}
+},
+  {
+    name: "Vietnam War Chatbot",
+      type: "School Project",
+      link: "https://jellofile.github.io/vietnamai"
+  },
+  {
+    name: "Math Compass Chatbot",
+      type: "School Project",
+      link: "https://jellofile.github.io/mathcompass"
+  },
+  {
+    name: "Russian Revolution Chatbot",
+      type: "School Project",
+      link: "https://jellofile.github.io/therussianrevolution"
+  }
 ]
 
 function randomGame(){
@@ -65,6 +80,7 @@ function randomGame(){
   document.getElementById("gameheader").textContent = projects[rand].name
   document.getElementById("typeheader").textContent = projects[rand].type
 document.getElementById('iframe').src = projects[rand].link
+
 }
 randomGame()
 
