@@ -79,6 +79,7 @@ function randomGame(){
   rand = Math.floor(Math.random()*projects.length)
   document.getElementById("gameheader").textContent = projects[rand].name
   document.getElementById("typeheader").textContent = projects[rand].type
+  document.getElementById("gotosite").setAttribute("onclick", `location.href = "${projects[rand].link}"`)
 document.getElementById('iframe').src = projects[rand].link
 
 }
