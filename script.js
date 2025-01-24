@@ -51,28 +51,33 @@ var projects = [
   {
   name: "LifeInAGame",
   type:"Discontinued Web Game",
-  link:"https://jellofile.github.io/lifeinagame"
+   archivedStatus:"true",
+  link:"https://nebeux.github.io/lifeinagame"
 },
 {
   name: "Password Meme",
   type: "YouTube Web Project",
-  link: "https://jellofile.github.io/passwordmeme"
+    archivedStatus:"true",
+  link: "https://nebeux.github.io/passwordmeme"
 },
-  {
-    name: "Vietnam War Chatbot",
-      type: "School Project",
-      link: "https://jellofile.github.io/vietnamai"
-  },
   {
     name: "Math Compass Chatbot",
       type: "School Project",
-      link: "https://jellofile.github.io/mathcompass"
+      archivedStatus:"true",
+      link: "https://nebeux.github.io/mathcompass"
   },
   {
     name: "Russian Revolution Chatbot",
       type: "School Project",
-      link: "https://jellofile.github.io/therussianrevolution"
-  }
+      archivedStatus:"true",
+      link: "https://nebeux.github.io/therussianrevolution"
+  },
+  {
+    name: "Vietnam War Chatbot",
+      type: "School Project",
+      archivedStatus:"true",
+      link: "https://nebeux.github.io/vietnamai"
+  },
 ]
 
 function randomGame(){
